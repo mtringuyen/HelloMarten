@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using HelloMarten.Model;
+using Marten;
+using System.Linq;
 
 namespace HelloMarten.Controllers
 {
