@@ -7,8 +7,8 @@ using System.Linq;
 
 namespace HelloMarten.Controllers
 {
-  [Route("/posts")]
-  public class BlogPostController
+  [Route("api/[controller]")]
+  public class BlogPostController : Controller
   {
     private readonly IDocumentStore _documentStore;
 
