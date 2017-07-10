@@ -33,7 +33,7 @@ namespace HelloMarten
 
       // Marten document store
       services.AddScoped<IDocumentStore>(provider =>
-          DocumentStore.For("Server=127.0.0.1;Port=5432;Database=achievedb;User Id=postgres;Password=Welkom01;"));
+          DocumentStore.For("Server=127.0.0.1;Port=5432;Database=hellomartendb;User Id=postgres;Password=Welkom01;"));
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
